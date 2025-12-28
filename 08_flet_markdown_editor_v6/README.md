@@ -1,4 +1,4 @@
-# MarkdownEditorFlet app
+# 08FletMarkdownEditorV6 app
 
 ## Run the app
 

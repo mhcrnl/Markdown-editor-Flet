@@ -1,0 +1,1 @@
+acesta este un text markdown **dark mode**
