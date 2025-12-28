@@ -18,7 +18,7 @@ def main(page: ft.Page):
         color='black',
         content_padding=30,
         border=ft.InputBorder.NONE,
-        bgcolor=ft.colors.BLUE_GREY,
+        bgcolor=ft.Colors.BLUE_GREY,
         on_change=update_view
     )
 
@@ -76,7 +76,7 @@ def main(page: ft.Page):
         controls=[
             ft.Container(
                 expand=True,
-                bgcolor=ft.colors.WHITE,
+                bgcolor=ft.Colors.WHITE,
                 content=ft.Column(
                     controls=[
                         editor,
@@ -86,7 +86,7 @@ def main(page: ft.Page):
             ),
             ft.Container(
                 expand=True,
-                bgcolor=ft.colors.BLACK,
+                bgcolor=ft.Colors.BLACK,
                 padding=ft.padding.all(30),
                 content=view,
             ),
@@ -98,4 +98,4 @@ def main(page: ft.Page):
 
 
 if __name__=='__main__':
-    ft.app(target=main)
+    ft.run(main)
